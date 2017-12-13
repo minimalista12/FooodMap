@@ -1,2 +1,4 @@
-$('.search-game').search();
+$(document).ready(function() { 
+  alert("hola");
 
+});
