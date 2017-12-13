@@ -1,0 +1,36 @@
+body {
+	background-color: #2B2B2B;
+}
+
+h1 {
+	color: #FFC107;
+  }
+
+
+/*configuramos la version escritorio*/
+#tituloescritorio {
+	color: #FFC107;
+	font-size:100px; 
+  }
+
+#tituloescritorio p {
+	font-size: 19px;
+	color: white;
+  }
+
+.btn-lg {
+	background: #FFC107;
+  }
+
+
+
+/*configuramos version mobile*/ 
+
+h2 {
+	color: white;
+	font-size: 38px;
+}
+h3 {
+	color:#e2ae0f;
+	font-weight: 200px;
+}
