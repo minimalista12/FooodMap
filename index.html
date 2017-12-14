@@ -30,41 +30,102 @@
       <!-- Version mobile -->
 
                 <div class="container col-xs-12  hidden-md hidden-lg" >
-                     <div class="row  ">
+                     <div class="row">
 
-                     <h1 class="col-xs-offset-2">FooodMap  <i class="fa fa-map-marker" aria-hidden="true"></i></h1>
+                     <h1 class="col-md-offset-4" >FooodMap  <i class="fa fa-map-marker" aria-hidden="true"></i></h1>
 
-                     <div class="col-xs-offset-1" id="mapita">
+                     <div id="mapita" class="col-xs-offset-1"  >
                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.1610416131775!2d-70.64394908480145!3d-33.41904558078292!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c5ebb6bcdd1f%3A0x98ac0f5d7d2c951f!2sPuma+1180%2C+Recoleta%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1sen!2scl!4v1513125283750" width="300" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
                        
+
+                  <br>
+                  <br>
                      </div>
-                      <!--Barra desplegable de menu-->
-                     <div class="container" id="menucomida" col-xs-offset-1">
-                       <h2>¿Que buscas?</h2>
-                            <p>Busca el tipo de comida que mas te gusta</p>
-                              <div class="panel-group">
-                               <div class="panel panel-default">
-                              <div class="panel-heading">
-                             <h4 class="panel-title">
-                             <a data-toggle="collapse" href="#collapse1">Elige tu comida favorita</a></h4>
+                      <!--  -->
+                     <div class="container" id="menucomida"">
+                       <h2>¿Que quieres comer</h2>       
+                   </div>
+ 
+                      <div id="myBtnContainer"   >
+                       <button class="btn active" onclick="filterSelection('todo')" > De todo</button>
+                           <button class="btn" onclick="filterSelection('chatarra')"> Comida Chatarra</button>
+                         <button class="btn" onclick="filterSelection('vegana')"> Comida Vegana</button>
+                        <button class="btn" onclick="filterSelection('postre')"> Postres</button>
+                      </div>
+
+                    <div class="row col-xs-offset-1 " >
+
+                      <div class="column chatarra ">
+                         <div class="content">
+                            <img src="assets/img/menu/CHATARRA/burger.jpg" alt="" style="width:100%">
+                              <h4>Hamburguejas</h4>
+                              </div>
                              </div>
-                            <div id="collapse1" class="panel-collapse collapse">
-                           <ul class="list-group">
-                          <li class="list-group-item">Vegana</li>
-                          <li class="list-group-item">Internacional</li>
-                          <li class="list-group-item">Postres</li>
-                          <li class="list-group-item">Comida Chatarra</li>
-                       </ul>
+
+                      <div class="column chatarra">
+                         <div class="content">
+                            <img src="assets/img/menu/CHATARRA/53110049.cms" alt="Lights" style="width:100%">
+                               <h4>PizzaPizza </h4>
+                              </div>
+                            </div>
+
+                      <div class="column chatarra">
+                        <div class="content">
+                          <img src="assets/img/menu/CHATARRA/pollocoreano.png" alt="Nature" style="width:100%">
+                             <h4>Chicken Story</h4>
+                            </div>
+                           </div>
+  
+                       <div class="column vegana">
+                          <div class="content">
+                             <img src="assets/img/menu/VEGANA/vegana.JPG" alt="Car" style="width:100%">
+                               <h4>Hamburguesa Portbello</h4>
+                              </div>
+                           </div>
+
+                        <div class="column vegana">
+                          <div class="content">
+                             <img src="assets/img/menu/VEGANA/humus.jpg" alt="Car" style="width:100%">
+                                <h4>Humus de beterraga</h4>
+                              </div>
+                            </div>
+                      <div class="column vegana">
+                        <div class="content">
+                          <img src="assets/img/menu/VEGANA/grilled-avocado-pic.jpg" alt="Car" style="width:100%">
+                             <h4>Palta Rellena Vegana</h4>
+                            </div>
+                          </div>
+
+                       <div class="column postre">
+                         <div class="content">
+                           <img src="assets/img/menu/POSTRE/cupcake.jpg" alt="Car" style="width:100%">
+                           <h4>Cupcakes Paradise</h4>
+                         </div>
+                        </div>
+
+                    <div class="column postre">
+                      <div class="content">
+                         <img src="assets/img/menu/POSTRE/Baked-Funfetti-Donuts.-These-taste-just-like-your-favorite-sprinkled-donuts-at-the-bakery.-And-theyre-so-simple-to-make-at-home-4.jpg" alt="Car" style="width:100%">
+                        <h4>Donkin Donnuts</h4>
+                      </div>
+                    </div>
+
+                      <div class="column postre">
+                        <div class="content">
+                         <img src="assets/img/menu/POSTRE/icecream.jpg" alt="Car" style="width:100%">
+                        <h4>Heladeria Monroe</h4>
                       </div>
                      </div>
-                    </div>
-                   </div>
-                    
-              
+                        </div>
+                           </div>
+                               </div>
+                              </div>
 
-                </div>
 
-      </div>
+
+
+
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
