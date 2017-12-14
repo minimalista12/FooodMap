@@ -20,17 +20,65 @@ h1 {
 
 .btn-lg {
 	background: #FFC107;
+	width:340px;
   }
 
+#menucomida {
+  background: #FFC107;
+  width: 100%;
 
-
-/*configuramos version mobile*/ 
-
-h2 {
-	color: white;
-	font-size: 38px;
 }
-h3 {
-	color:#e2ae0f;
-	font-weight: 200px;
+
+#menucomida h2 {
+  background: #FFC107;
+  font-size: 19px;
+}
+
+
+
+/* Padding entre las columnas */
+.row,
+.row > .column {
+    padding: 2.3px;
+}
+
+
+.column {
+    float: left;
+    width: 31%;
+    display: none; 
+}
+
+.row:after {
+  
+    display: table;
+}
+
+.content {
+    background-color: #2B2B2B;
+}
+
+.content h4 {
+  color: black;
+  font-size:12px;
+  font-weight: 200;
+  background: white;
+}
+
+.show {
+  display: block;
+}
+
+
+.btn {
+  border: solid 1px white;
+  outline: none;
+  padding: 8px 6px;
+  background-color: #2B2B2B;
+  cursor: pointer;
+  color: white;
+}
+
+.btn:hover, .active {
+  background-color: #ddd;
 }
